@@ -1,0 +1,29 @@
+.image-cropper {
+  position: relative;
+  display: inline-block;
+}
+
+.crop-box {
+  border: 2px dashed #f00;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.crop-box-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #f00;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 4px;
+}
+
+.image-cropper-controls {
+  margin-top: 10px;
+}
+
+.image-cropper-controls button {
+  margin-right: 10px;
+}
